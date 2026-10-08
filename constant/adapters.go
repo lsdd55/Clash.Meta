@@ -35,6 +35,7 @@ const (
 	ShadowsocksR
 	Snell
 	Socks5
+	Socks5s
 	Http
 	Vmess
 	Vless
@@ -203,6 +204,8 @@ func (at AdapterType) String() string {
 		return "Snell"
 	case Socks5:
 		return "Socks5"
+	case Socks5s:
+		return "Socks5s"
 	case Http:
 		return "Http"
 	case Vmess:
